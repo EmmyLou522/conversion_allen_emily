@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5B5B5B;
@@ -44,28 +44,19 @@ a {
 a:hover {
 }
 
-#wrapper {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
-}
-
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
 
 #header {
-    width: 1000px;
-    height: 150px;
+    width: 100%;
     margin: 0 auto;
     padding: 0px 0px;
 }
 
+#header img {
+    width: 100%;
+}
 /* Logo */
 
 #logo {
@@ -112,11 +103,6 @@ a:hover {
 
 /* Splash */
 
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
 
 /* Search */
 
