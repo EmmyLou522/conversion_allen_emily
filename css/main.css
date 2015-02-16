@@ -136,16 +136,6 @@ a:visited {
         #menu ul a {
             display: inline;
             float: left;
-            line-height: 48px;
-            text-decoration: none;
-            text-align: center;
-            text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-            text-transform: uppercase;
-            font-family: 'Oswald', sans-serif;
-            font-size: 16px;
-            font-weight: 300;
-            color: #1F1F1F;
-            border: none;
             padding-right: 13px;
             padding-left: 13px;
             line-height: 75px;
@@ -198,9 +188,7 @@ a:visited {
         text-align: center;
         text-decoration: none;
     }
-    a.more {
-        color: #FFFFFF;
-    }
+
     .comments {
         display: inline-block;
         padding: 10px;
@@ -208,9 +196,6 @@ a:visited {
         color: #FFFFFF;
         text-align: center;
         text-decoration: none;
-    }
-    a.comments {
-        color: #FFFFFF;
     }
 /* sidebar */
 
@@ -224,9 +209,6 @@ a:visited {
         margin: 0;
         padding-left: 20px;
         list-style: none;
-    }
-
-    #sidebar li {
     }
 
     #sidebar li ul {
@@ -272,118 +254,27 @@ a:visited {
 
     .post {
         width: 100%;
-        border-bottom: 1px solid #E7EBED;
-        margin: auto;
-        margin-bottom: 15px;
-        padding-bottom: 15px;
     }
 
-    .post .title {
-        letter-spacing: -1px;
-    }
-
-    .post .title a {
-        border: none;
-        text-decoration: none;
-        color: #222222;
-    }
-
-    .post .meta {
-        margin-bottom: 30px;
-        text-align: left;
-        font-family: 'Abel', sans-serif;
-        font-size: 16px;
-        font-weight: 300;
-    }
-
-    .post .meta .posted {
-        float: right;
-    }
-
-
-    .links {
-        padding-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .more {
-        display: inline-block;
-        padding: 10px;
-        margin-right: 10px;
-        background: #222222;
-        color: #FFFFFF;
-        text-align: center;
-        text-decoration: none;
-    }
-    a.more {
-        color: #FFFFFF;
-    }
-    .comments {
-        display: inline-block;
-        padding: 10px;
-        background: #222222;
-        color: #FFFFFF;
-        text-align: center;
-        text-decoration: none;
-    }
-    a.comments {
-        color: #FFFFFF;
-    }
 /* sidebar */
 
     #sidebar {
-        display: block;
         float: right;
         width: 25%;
     }
 
     #sidebar ul {
-        margin: 0;
         padding-left: 35px;
-        list-style: none;
-    }
-
-    #sidebar li {
-    }
-
-    #sidebar li ul {
-        padding-bottom: 30px;
-        padding-left: 0px;
-    }
-
-    #sidebar li li {
-    line-height: 48px;
-    border-bottom: 1px solid #E7EBED;
-    border-left: none;
-    }
-
-    #sidebar h3 {
-        height: 38px;
-        width: 100%;
-        letter-spacing: -.5px;
-        color: #222222;
-    }
-
-    #sidebar a {
-        border: none;
     }
 
     #sidebar a:hover {
         text-decoration: underline;
     }
-    #footer {
-        clear: both;
-        background-color: #5B5B5B;
-        height: 50px;
-        color: lightgray;
-        text-align: center;
-        padding-top: 10%;
-        font-size: 12px;
-    }
 }
 /* footer */
 
     #footer {
+        clear: both;
         background-color: #5B5B5B;
         height: 50px;
         color: lightgray;
