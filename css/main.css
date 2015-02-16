@@ -98,8 +98,7 @@ a:visited {
 
     #page {
         width: 100%;
-        margin: 0 auto;
-        padding: 30px 0px;
+        margin: 30px auto 0;
     }
    /* tablet */
 
