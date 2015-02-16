@@ -46,21 +46,15 @@ a:visited {
         margin: auto;
         width: 100%;
         text-align: center;
-    }
-
-    #logo h1 {
         line-height: 100px;
         letter-spacing: -2px;
         font-size: 3.8em;
     }
 
-    #logo h1 a {
+    #logo a {
         color: #1F1F1F;
         text-shadow: 1px 1px 0px rgba(0,0,0,.2);
         text-decoration: none;
-    }
-
-    #logo a {
         color: #000000;
     }
 
@@ -103,27 +97,21 @@ a:visited {
    /* tablet */
 
 @media screen and (min-width: 570px) {
-        aside#logo {
+        #logo {
             float: left;
             width: 33%;
             text-align: left;
             padding-left: 2%;
             height: 100px;
-        }
-
-        #logo h1 {
             line-height: 100px;
             letter-spacing: -2px;
             font-size: 3.8em;
         }
 
-        #logo h1 a {
+        #logo a {
             color: #1F1F1F;
             text-shadow: 1px 1px 0px rgba(0,0,0,.2);
             text-decoration: none;
-        }
-
-        #logo a {
             color: #000000;
         }
 
