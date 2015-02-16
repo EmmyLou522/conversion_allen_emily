@@ -39,6 +39,10 @@ a:visited {
         width: 100%;
     }
 
+.banner-img {
+    margin-top: 16px;
+}
+
 /* Logo */
 
     #logo {
@@ -96,7 +100,7 @@ a:visited {
     }
    /* tablet */
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 625px) {
         #logo {
             float: left;
             width: 33%;
@@ -116,13 +120,17 @@ a:visited {
         }
 
         #menu {
-            float: left;
-            width: 65%;
-            margin-top: 15%;
+            float: right;
         }
 
         #menu ul {
             list-style-type: none;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+        #menu li {
+            display: inline-block;
         }
 
         #menu ul a {
@@ -140,6 +148,7 @@ a:visited {
             border: none;
             padding-right: 13px;
             padding-left: 13px;
+            line-height: 75px;
         }
     }
 
