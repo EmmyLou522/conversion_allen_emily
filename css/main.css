@@ -144,11 +144,6 @@ a:visited {
     }
 
 /* content */
-    #content {
-        display: block;
-        width: 100%;
-    }
-
     .post {
         width: 90%;
         border-bottom: 1px solid #E7EBED;
@@ -261,9 +256,13 @@ a:visited {
         max-width: 1000px;
         margin: auto;
     }
-     #content {
+    #page {
         float: left;
         width: 75%;
+    }
+
+    #sidebar {
+        margin-top: 30px;
     }
 
     .post {
